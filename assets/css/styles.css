@@ -166,6 +166,7 @@ body.dark-theme{
   overflow: hidden;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 .profile__perfil img {
   width: 100px;
@@ -218,7 +219,7 @@ body.dark-theme{
   margin-bottom: 0.25rem;
 }
 .profile__info-description {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   font-weight: 500;
 }
 
@@ -283,7 +284,7 @@ body.dark-theme{
   border: none;
   outline: none;
   padding: 1rem;
-  color: var(--text-color);
+  color: var(--title-color);
   font-size: var(--small-font-size);
   font-family: var(--body-font);
   font-weight: 500;
@@ -301,7 +302,7 @@ body.dark-theme{
   border-radius: 1rem;
   overflow: hidden;
 }
-projects__card img {
+.projects__card img {
   width: 100%;
   height: 100%;
 }
@@ -326,7 +327,7 @@ projects__card img {
   color: #fff;
 }
 .projects__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
 }
 .projects__title {
   font-size: var(--h3-font-size);
@@ -374,7 +375,7 @@ projects__card img {
   line-height: 18px;
 }
 .skills__level {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
 }
 /* Hide and show projects & skills */
 .filters [data-content] {
@@ -394,7 +395,7 @@ projects__card img {
   display: block;
   margin: 2.5rem 0 2rem;
   text-align: center;
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
 
@@ -414,7 +415,7 @@ projects__card img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width:320px){
+@media screen and (max-width: 320px){
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -457,7 +458,7 @@ projects__card img {
 }
 
 /* For large devices */
-@media screen  and (main-width: 992px) {
+@media screen  and (min-width: 992px) {
   .container{
     margin-left: auto;
     margin-right: auto;
